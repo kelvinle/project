@@ -17,7 +17,7 @@ export default () => (
   <Router history={browserHistory}>
     <Route component={MainLayout}>
       <Route path="/" component={HomeContainer} />
-          <Route path="/admin" component={AdminContainer} />
+      <Route path="/admin" component={AdminContainer} />
       <Route path="/product/:id" component={ProductContainer} />
       <Route path="/edit/:id" component={ProductEditContainer} />
       <Route path="/insert/:id" component={ProductInsert} />
